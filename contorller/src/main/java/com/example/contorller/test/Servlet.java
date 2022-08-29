@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @Controller
 public class Servlet {
-    @RequestMapping("/")
+    @RequestMapping("/a")
     @ResponseBody
     public String user(){
         User user = new User();
